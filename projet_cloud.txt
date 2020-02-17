@@ -1,0 +1,10 @@
+Description : Les apprenants, de manière individuelle, devront créer un espace de stockage online en insistant sur le design et l\'expérience utilisateur. Ils créeront une identité propre à leur service (logo, typo...) en s’efforçant d\'appliquer au maximum le principe \"keep it simple stupid\".
+Sur cet espace de stockage, les utilisateurs auront la possibilité de créer, supprimer ou modifier des dossiers. Ils auront la possibilité de consulter tous les fichiers présents dans un dossier. Il sera aussi possible de donner la possibilité d\'ajouter un ou plusieurs fichiers dans le dossier dans lequel ils se trouvent. Upload \"choisir le fichier\" (si possible avec Drag&drop). L\'upload multiple avec barre de progression sera un plus. 
+
+Livrable : Codes sur Github + version fonctionnelle sur serveur.
+
+Critères d’évaluation :
+• Respect des bonnes pratiques de développement
+• Respect des règles de sécurisation
+• Le code source est commenté et documenté
+• Des tests unitaires ont été réalisés
