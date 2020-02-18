@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="container">
         <p style="text-align: center;">Merci de vous identifier pour accéder à notre site</p>
-        <form action="functions.php" method="POST" style="display:flex; flex-direction: column; width:250px; margin: auto; padding-top: 150px;">
+        <form action="connexion.php" method="POST" style="display:flex; flex-direction: column; width:250px; margin: auto; padding-top: 150px;">
             <label for="identifiant" >Votre identifiant</label>
             <input id="user" name="user" type="text" required/>
             <label for="identifiant">Votre mot de passe</label>

@@ -1,5 +1,5 @@
 <?php 
-session_start();
+//session_start();
 include('doctype.php')?>
 <title>Cloud Connection - accueil</title>
 </head>
@@ -14,18 +14,12 @@ include('doctype.php')?>
                         // echo "<div class='text-center padding-top-40'>Bienvenue ".$_SESSION['user']." sur votre cloud personnalisé !</div>";
                         ?>
                 <!-- Listing des fichiers présent sur le cloud -->
-                <!-- ajouter des dossiers avec mkdir() https://www.php.net/manual/fr/function.mkdir.php on peut aussi suprrim des dossiers -->
-                <a href="ajout_dossier.php">Ajouter un dossier</a><a href="upload.php">Ajouter un fichier</a><br />
 
                 
                 <?php
-
-                // }
-                
-
-                // } else{
-                //     header("Location: index.php");
-                // }
-                        ?>
+                        require('functions.php');
+                        afficherDossier();
+                                        
+                       ?>
                 </div>
         </div>
