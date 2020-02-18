@@ -1,13 +1,14 @@
 <?php 
-include('doctype.php')?>
+include('doctype.php');
+session_start();?>
 <title>Cloud Connection - accueil</title>
 </head>
 <body>
-<?php 
-session_start();
-include('menu.php');?>
-<h1>Cloud Connection - ajouter un dossier</h1>
-<form action="" method="GET" >
+    <div class="container-fluid">
+        <div class="container">
+        <?php include('menu.php');?>
+    <h1>Cloud Connection - ajouter un dossier</h1>
+    <form action="" method="GET" >
         <input type="text" name="name_folder" placeholder="Nom du dossier">
         <button type="submit">Enregistrer</button>
     </form>
@@ -19,3 +20,6 @@ include('menu.php');?>
         mkdir($newFolder,0777,TRUE);
     }
     // ajoutDossier($nameFolder);
+    ?>
+        </div>
+    </div>
