@@ -1,7 +1,8 @@
 <?php 
 include('doctype.php');
-session_start();?>
-<title>Cloud Connection - accueil</title>
+// session_start();
+?>
+<title>Cloud Connection - ajouter un dossier</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -13,14 +14,10 @@ session_start();?>
             <button type="submit">Enregistrer</button>
         </form>
         <?php
-        if(isset($_GET['name_folder'])){
-            $nameFolder = $_GET['name_folder'];
-            $newFolder="upload/".$nameFolder;
-            mkdir($newFolder,0777,TRUE);
-            echo "Le dossier " .$nameFolder." a été créé";
+        require('functions.php');
+        echo $GLOBALS['nameFolder'];
 
-        }
-        // ajoutDossier($nameFolder);
+        newFolder();
         
         ?>
         </div>

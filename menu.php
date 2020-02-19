@@ -6,7 +6,7 @@
                 <li class="list-style-none pl-13"><a href="upload.php">Ajouter un fichier</a></li>
             </ul>
         </nav>
-        <div class="d-flex pl-13 w-auto"><a href="functions.php" class="d-flex align-items-center justify-content-end ">Déconnection</a></div>
+        <div class="d-flex pl-13 w-auto"><a href="logout.php" class="d-flex align-items-center justify-content-end ">Déconnection</a></div>
 </header>
 
 
